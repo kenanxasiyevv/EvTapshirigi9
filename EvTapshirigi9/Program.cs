@@ -7,7 +7,7 @@
             Console.Write("Massivin uzunlugunu daxil edin: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
-            int max = 0;
+            int max = arr[0];
 
             for (int i = 0; i < arr.Length; i++)
             {
