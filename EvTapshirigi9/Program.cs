@@ -15,9 +15,9 @@
                 arr[i] = int.Parse(Console.ReadLine());
 
             }
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
-                if (arr[i] > max)
+                if (arr[i] > arr[max])
                     max = i;
             }
                     Console.WriteLine(max);
